@@ -1,0 +1,28 @@
+nav {
+    background-color:rgba(27, 26, 26, 0.932);
+    display: flex;
+}
+.navLink{
+    text-decoration: none;
+}
+.navButton {
+    margin: 5px;
+    background-color: rgba(58, 176, 255, 0.849);
+    border-radius: .25rem;
+    border: none;
+    font-weight: 600;
+    color: rgba(66, 60, 60, 0.849);
+    text-shadow: 1px 1px rgb(226, 221, 221);
+    box-shadow: 2px 2px rgb(3, 3, 3);
+}
+.navButton:hover{
+    background-color: rgba(0, 93, 199, 0.747);
+    transition: all 0.3s ease-in-out;
+}
+.navButton:active{
+    background-color: rgba(35, 247, 35, 0.671);
+    transition: all 0.2s ease-in-out;
+}
+#navLogOut{
+    box-shadow: 2px 2px rgb(3, 3, 3);
+}

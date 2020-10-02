@@ -1,0 +1,90 @@
+.homeBackground {
+    background-image: url(https://images.unsplash.com/photo-1492892132812-a00a8b245c45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 120vh;
+    padding: 50px;
+}
+.homeProfileContainer {
+    display: flex;
+    justify-content: space-around;
+}
+.homeProfileImage{
+    background-position: center;
+    background-image: url("https://siricoa94.github.io/jobSeekingPortfolio/images/headshot.JPG");
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50rem;
+    box-shadow: 4px 4px 4px 4px rgba(3, 3, 3, 0.753);
+}
+.homeProfileImage:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background-image: url("../css/img/click_me_intro.png");
+    transition: all 0.3s ease-in-out;
+}
+.showInfoContainer {
+    background-color: rgba(255, 255, 255, 0.753);
+    box-shadow: 2px 2px 2px 2px rgba(3, 3, 3, 0.5);
+    color: rgb(83, 78, 78);
+    padding: 20px 40px 40px 20px;
+    border-radius: 0.25rem;
+    margin: 50px 20px 20px 20px;
+    text-align: justify;
+    font-family: 'Orbitron', sans-serif;
+}
+.showInfoTitle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* HOBBY SECTION */
+.homeHobbyImage{
+    background-position: center;
+    background-image: url("https://images.unsplash.com/photo-1577553448309-75ea9864561d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50rem;
+    box-shadow: 4px 4px 4px 4px rgba(3, 3, 3, 0.753);
+}
+.homeHobbyImage:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background-image: url("../css/img/click_me_hobby.png");
+    transition: all 0.3s ease-in-out;
+}
+/* CAREER SECTION */
+.homeCareerImage{
+    background-position: center;
+    background-image: url("https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=80");
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50rem;
+    box-shadow: 4px 4px 4px 4px rgba(3, 3, 3, 0.753);
+}
+.homeCareerImage:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background-image: url("../css/img/click_me_career.png");
+    transition: all 0.3s ease-in-out;
+}
+/* EDUCATION SECTION */
+.homeEducationImage{
+    background-position: center;
+    background-image: url("https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50rem;
+    box-shadow: 4px 4px 4px 4px rgba(3, 3, 3, 0.753);
+}
+.homeEducationImage:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background-image: url("../css/img/click_me_education.png");
+    transition: all 0.3s ease-in-out;
+}

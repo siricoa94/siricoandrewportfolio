@@ -1,0 +1,65 @@
+.loginContainer {
+    background-image: url(https://images.unsplash.com/photo-1458501534264-7d326fa0ca04?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    min-height: 120vh;
+}
+.formContainer {
+    background-color:rgba(255, 255, 255, 0.651);
+    border-radius: 2rem;
+    box-shadow: 2px 2px rgba(3, 3, 3, 0.253);
+    margin-top: 150px;
+    margin-bottom: 5px;
+    max-height: 300px;
+}
+.loginForm{
+    padding: 25px;
+    color: rgba(66, 60, 60, 0.849);
+    text-shadow: 1.5px 1.5px rgb(226, 221, 221);
+}
+.emailEntry{
+    border-radius: .25rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    box-shadow: 2px 2px rgba(3, 3, 3, 0.253);
+
+}
+.passwordEntry{
+    border-radius: .25rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px rgba(3, 3, 3, 0.253);
+}
+.enterButton {
+    margin: 5px;
+    background-color: rgba(58, 176, 255, 0.849);
+    border-radius: .25rem;
+    border: none;
+    font-weight: 600;
+    color: rgba(66, 60, 60, 0.849);
+    text-shadow: 1px 1px rgb(226, 221, 221);
+    box-shadow: 2px 2px rgba(3, 3, 3, 0.253);
+}
+.enterButton:hover{
+    background-color: rgba(0, 93, 199, 0.747);
+    transition: all 0.3s ease-in-out;
+}
+.enterButton:active {
+    background-color: rgba(35, 247, 35, 0.671);
+    transition: all 0.2s ease-in-out;
+}
+fieldset{
+    border: none;
+    border-radius: .25rem;
+    background-color: rgba(240, 108, 108, 0.486);
+    font-weight: 700;
+    text-shadow: 1.5px 1.5px rgb(226, 221, 221);
+    display: inline-flexbox;
+    justify-content: center;
+}
